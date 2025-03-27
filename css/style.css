@@ -1,0 +1,384 @@
+/* Lato 字体定义 */
+/* latin-ext: 扩展拉丁字符集的斜体普通字体 */
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin: 基本拉丁字符集的斜体普通字体 */
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext: 扩展拉丁字符集的斜体粗体 */
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin: 基本拉丁字符集的斜体粗体 */
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext: 扩展拉丁字符集的正常普通字体 */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin: 基本拉丁字符集的正常普通字体 */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext: 扩展拉丁字符集的正常粗体 */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin: 基本拉丁字符集的正常粗体 */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 通用样式 */
+body, td, th, tr, p, a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: #1772d0;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #f09228;
+    text-decoration: none;
+}
+
+strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    margin: 0 0 30px 0; /* 调整为 30px，增加标题与内容的间距 */
+    font-weight: normal;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.name {
+    padding-top: 20px;
+    margin: 0 0 25px 0;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+}
+
+.papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.one {
+    width: 340px;
+    height: 340px;
+    position: relative;
+}
+
+.two {
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    border-radius: 50%;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+    background-color: #ffffd0;
+}
+
+.colored-box {
+    color: black;
+    padding: 30px;
+    display: block;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto 10px;
+}
+
+/* 为 .colored-box 内的子元素增加顶部间距 */
+.colored-box > *:not(h2) {
+    margin-top: 20px; /* 添加顶部间距，与 h2 分隔 */
+}
+
+/* 个人简介部分 (Hero Section) */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.hero .left {
+    margin-right: 20px;
+}
+
+.hero .right {
+    flex: 1;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.hero .right p {
+    margin: 0 0 15px 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.hero .right a {
+    color: #1772d0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero .right a:hover {
+    color: #f09228;
+    text-decoration: underline;
+}
+
+/* 社交链接部分 */
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-item img {
+    width: 20px;
+    height: 20px;
+    border-radius: 0%;
+}
+
+/* 研究工作部分 */
+#research {
+    /* 继承 .colored-box 的样式 */
+}
+
+.note {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 25px 0; /* 调整为 25px，增加与下方内容的间距 */
+    font-style: italic;
+}
+
+.research-item {
+    display: flex;
+    margin-bottom: 25px;
+    align-items: flex-start;
+}
+
+.research-item img {
+    width: 260px;
+    height: 160px;
+    margin-right: 25px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.research-info {
+    flex: 1;
+    padding-top: 5px;
+}
+
+.research-info p {
+    margin: 6px 0;
+    line-height: 1.6;
+}
+
+.papertitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.authors {
+    color: #666;
+    font-size: 14px;
+}
+
+.venue {
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.links {
+    margin-top: 8px;
+}
+
+.links a {
+    color: #1772d0;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.links a:hover {
+    color: #f09228;
+    text-decoration: underline;
+}
+
+/* 经验与奖项部分 */
+#experience {
+    /* 继承 .colored-box 的样式 */
+}
+
+
+.experience-item {
+    margin-bottom: 0px;
+    padding: 0px 0;
+}
+
+.experience-item p {
+    margin: 0;
+    line-height: 1;
+    font-size: 15px;
+}
+
+/* 兴趣爱好部分 */
+#hobbies {
+    /* 继承 .colored-box 的样式 */
+}
+
+.hobby-item {
+    margin-bottom: 30px;
+}
+
+.hobby-images {
+    display: flex; /* 使用 flex 布局横向排列照片 */
+    gap: 20px; /* 照片之间的间距 */
+    margin-bottom: 15px; /* 照片与下方文字的间距 */
+}
+
+.hobby-item img {
+    width: 160px; /* 保持宽度 */
+    height: 120px; /* 保持高度 */
+    object-fit: cover;
+}
+
+.hobby-item p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .left {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .hero .right {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .one, .two {
+        width: 180px;
+        height: 180px;
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .name {
+        margin-bottom: 20px;
+    }
+
+    .research-item {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .research-item img {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .research-info {
+        padding-top: 0;
+    }
+
+    .experience-item {
+        padding: 6px 0;
+    }
+}
+
+/* 注释：若需调整标题与内容的间距，可修改以下值：
+   - h2 的 margin-bottom（默认 30px）
+   - .note 的 margin-bottom（默认 25px）
+   - .colored-box > *:not(h2) 的 margin-top（默认 20px）
+*/
